@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FORM</title>
+	<link rel="stylesheet" href="form.css">
+</head>
+<body>
+	<form>
+		<h1>Registration form</h1>
+		<div class="container">
+			<label for="name">Name</label>
+			<input type="text" name="Name" placeholder="enter a name" required>
+			<label for="email">E-mail</label>
+			<input type="email" name="E-mail" placeholder="enter a mail" required>
+			<label for="password">Password</label>
+			<input type="password" name="password" placeholder="enter password" required>
+			<label for="phonenumber">Phonenumber</label>
+			<input type="tel" name="Phonenumber" placeholder="enter phonenumber" required>
+			<label for="gender">Gender</label>
+			<select id="Gender">
+				<option value="Male" name="Male">Male</option>
+				<option value="Female" name="Female">Female</option>
+				<option value="Others" name="Others">Others</option>
+			</select>
+			<label for="Zipcode">Zipcode</label>
+			<input type="text" name="Zipcode" placeholder="enter zipcode" required>
+			<label for="About">About</label>
+			<input type="text area" name="About" required>
+			<div class="btn">
+				<input type="Submit" value="Register" >
+			</div>
+		</div>
+	</form>
+</body>
+</html>
